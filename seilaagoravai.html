@@ -7,21 +7,20 @@
 <body id="corpo">
 	<header >
 		<div class="cabecalho">
-			genshin
+			<h1></h1>
 		</div>
 	</header>
 	<div id="colunadireita">
 	<h1 id="menudawiki" align="center"> Menu!</h1>
-		<p id="menu">1. Mundo <br><br>
+		<p id="menu"> <a href="file:///C:/Users/Victo/OneDrive/Desktop/Programação/Projeto%20HTML/teyvat.html" class="mundo">1. Mundo </a><br><br>
 			2. Missões<br><br>
 				2.1. <a> Missão Principal <br><br>
 				2.2. Missões lendárias <br><br>
-				3. <a href="file:///C:/Users/Victo/OneDrive/Desktop/Programação/Projeto%20HTML/teyvat.html" class="mundo"> Mundo </a><br><br>
-				4. Personagens <br><br>
-				4.1. <a href="https://genshin.mihoyo.com/pt/character/mondstadt?char=0" class="mondstadt"> Mondstadt </a><br><br>
-				4.2. <a href="https://genshin.mihoyo.com/pt/character/liyue?char=0" class="liyue"> Porto de Liyue </a><br><br>
-				4.3. <a href="https://genshin.mihoyo.com/pt/character/inazuma?char=0" class="inazuma"> Inazuma </a><br><br>
-				5. <a href="file:///C:/Users/Victo/OneDrive/Desktop/Programação/Projeto%20HTML/artefatos.html" class="artefatos">Artefatos</a> <br><br>
+				3. Personagens <br><br>
+				3.1. <a href="https://genshin.mihoyo.com/pt/character/mondstadt?char=0" class="mondstadt"> Mondstadt </a><br><br>
+				3.2. <a href="https://genshin.mihoyo.com/pt/character/liyue?char=0" class="liyue"> Porto de Liyue </a><br><br>
+				3.3. <a href="https://genshin.mihoyo.com/pt/character/inazuma?char=0" class="inazuma"> Inazuma </a><br><br>
+				4. <a href="file:///C:/Users/Victo/OneDrive/Desktop/Programação/Projeto%20HTML/artefatos.html" class="artefatos">Artefatos</a> <br><br>
 
 		</p>
 	</div>
@@ -43,7 +42,77 @@
 
 	<div class="personagem-destaque">
 		<h1 class="banner-titulo">Banner em destaque</h1>
+		<h2 class="albedo-nome">Albedo - O príncipe de giz</h2>
 		<img src="img/albedo-banner.png" class="banner-imagem">
+		<p class="texto-albedo">Albedo - um Alquimista residente de Mondstadt, serve os Cavaleiros de Favonius."Gênio", "Príncipe do Giz", "Capitão de Investigação"...<br>Ele não se importava muito com títulos ou fama, apenas se concentrava em seus temas de pesquisa. Riqueza e conexões não eram seu objetivo.<br> O que ele aspirava era o conhecimento supremo que havia sido escondido no fundo da mente humana desde os tempos antigos até o presente.</p>
+		<iframe class="albedo-video" width="560" height="315" src="https://www.youtube.com/embed/A3U51KyZLxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<h1 class="talentos">Talentos</h1>
+
+		<div class="grid-container">
+			<div class="grid-item">
+				<img src="img/talento1.png" class="talento1">
+				<h5 class="talentoss">Técnica da Espada de Favonius - Ataque normal</h5>
+				<p class="talento-descricao">Realiza ate 5 golpes rápidos.<br></p>
+
+				<h5 class="talentoss">Ataque Carregado</h5>
+				<p class="talento-descricao">Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.</p>
+
+				<h5 class="talentoss">Ataque Imersivo</h5>
+				<p class="talento-descricao">Mergulha em pleno ar para golpear o causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.</p>
+			</div>
+			<div class="grid-item">
+				<img src="img/talento2.png" class="talento2">
+				<h5 class="talentoss">Abiogênese - Radiação Solar - Habilidade Elemental</h5>
+				<p class="talento-descricao">A criação da Radiação Solar causa Dano Geo em uma AdE<br></p>
+
+				<h5 class="talentoss">Radiação Solar<br></h5>
+				<p class="talento-descricao">Tem as seguintes propriedades:</p>
+				<ul>
+					<li class="talento-descricao">
+						Quando inimigos dentro da área da Radiação Solar são atingidos, a Radiação Solar gerará Flores Transitórias que causam Dano Geo em uma AdE.
+					</li>
+					<li class="talento-descricao">
+						Dano causado escala conforme a DEF de Albedo.
+					</li>
+					<li class="talento-descricao">
+						Flores Transitórias só podem ser gerada uma vez a cada 2s.
+					</li>
+					<li class="talento-descricao">
+						Quando um personagem está localizado no local da Radiação Solar, a Radiação Solar irá acumular o poder Geo, erguendo-os em um pódio cristalizado.
+					</li>
+					<li class="talento-descricao">
+						Apenas um pódio cristalizado pode existir por vez.
+					</li>
+					<li class="talento-descricao">
+						Somente é possível existir uma Radiação Solar por vez feita por Albedo, e é considerada uma como uma Construção Geo.
+					</li>
+				</ul>
+			</div>
+			<div class="grid-item">
+				<img src="img/talento3.png" class="talento3">
+				<h5 class="talentoss">Ritual da Progenitura - Maré Tectônica - Explosão Elemental</h5>
+				<p class="talento-descricao">Sob o comando de Albedo, os cristais de Geo surgem e explodem, causando Dano Geo em uma AdE na frente dele. Se houver Radiação Solar no campo criado pelo próprio Albedo, 7 Flores Fatais serão geradas na zona da Radiação Solar, florescendo violentamente e causando Dano Geo em uma AdE.</p>
+
+			</div>
+			<div class="grid-item">
+				<img src="img/talento4.png" class="talento4">
+				<h5 class="talentoss">Pressão Calcária</h5>
+				<p class="talento-descricao">Flores transitórias geradas por Abiogênese - Radiação Solar causam mais 25% de Dano aos inimigos cuja Vida esteja abaixo de 50%.</p>
+
+			</div>
+			<div class="grid-item">
+				<img src="img/talento5.png" class="talento5">
+				<h5 class="talentoss">Sabedoria em uma Garrafa</h5>
+				<p class="talento-descricao">Ritual da Progenitura - Maré Tectônica aumenta a Proficiência Elemental dos membros próximos do grupo em 125 por 10s.</p>
+
+			</div>
+			<div class="grid-item">
+				<img src="img/talento6.png" class="talento6">
+				<h5 class="talentoss">Gênio Despertado</h5>
+				<p class="talento-descricao">Quando Albedo fabrica Materiais de Ascensão de Armas, ele tem 10% de chance de receber o dobro do produto.</p>
+
+			</div>
+		  </div>
 	</div>
 </body>
 </html>
