@@ -1,16 +1,16 @@
 #banner{
 	height: 180px;
 	width: 420px;
-	background-color: #8cff66;
 	background-image:url(img/logozinha.png);
 	border: solid 5px #0066ff;
-	padding-top: 15px;
+	margin: 10px;
 
 }
 
 header {
     background: #66A3FF;
     padding: 10px 0;
+	
 }
 
 .caixa {
@@ -27,6 +27,7 @@ nav {
     position:absolute;
     right: 15px;
     top: 25%;
+	
 }
 
 nav li {
@@ -56,7 +57,7 @@ nav a {
 
 #corpo{
 	background: linear-gradient(rgba(51, 51, 51, 0.5),rgba(51,51,51,0.5)), url(img/aetherandlumine.jpg);
-	height: 768px;
+	background-size: 100%;
 
 }
 
@@ -67,6 +68,7 @@ nav a {
 	float: right;
 	padding: 5px;
 	border: solid 5px #0066ff;
+	margin: 10px;
 }
 
 #menudawiki{
@@ -87,13 +89,14 @@ nav a {
 	height: 200px;
 	float: left;
 	margin-top: 20px;
+	margin-left: 7px;
 	border: solid 5px #0066ff;
 	padding: 5px;
 	margin-bottom: 70px;
 }
 
 #video{
-	
+	margin-left: 10px;
 	margin-top: 20px;
 	border: solid 5px #0066ff;
 }
@@ -161,7 +164,7 @@ nav a {
 }
 
 .banner-imagem {
-	margin-top: -90px;
+	
 	margin-left: 10px;
 	border: solid #4a3e42 5px;
 }
@@ -227,5 +230,15 @@ nav a {
 .talento6 {
 	width: 5%;
 	margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("img/background-footer.png");
+    padding: 40px 0;
+}
+
+footer p {
+    color: #808080 ;
 }
 

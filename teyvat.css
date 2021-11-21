@@ -1,3 +1,44 @@
+body {
+    background: linear-gradient(rgba(51, 51, 51, 0.5),rgba(51,51,51,0.5)), url(img/teyvat-background.png);
+    background-size: 100%;
+}
+
 .titulo {
+    color: white;
     font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.texto {
+    color: white;
+    font-size: 20px;
+}
+
+.nacoes {
+    color: white;
+    margin: 0;
+}
+
+.cidades {
+    font-size: 25px;
+    color: white;
+    display: inline;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.cidade-icone {
+    width: 5%;
+}
+
+#lista {
+    margin-left: -20px;
+}
+
+.cidade-descricao {
+    font-size: 20px;
+    margin-top: 5px;
 }
