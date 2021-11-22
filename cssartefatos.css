@@ -1,0 +1,89 @@
+#corpo {
+        background:linear-gradient(rgba(51, 51, 51, 0.5),rgba(51,51,51,0.5)), url(img/inazuma-templo.png);
+        background-size: 100%;
+}
+
+header {
+    background: rgba(51,51,51,0.5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.caixa {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+nav {
+    position:absolute;
+    right: 15px;
+    top: 25%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px 0 0;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icons {
+    width: 30px;
+}
+
+.titulo {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.texto {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.texto2 {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 15%;
+}
+
+.texto3 {
+    font-size: 20px;
+
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px #77488c;
+    width: 50%;
+    margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("img/background-footer.png");
+	padding: 40px 0;
+}
+
+footer p {
+	color: #808080 ;
+}

@@ -1,23 +1,84 @@
 <html>
 <head>
     <title>Teyvat</title>
+    <link rel="stylesheet" href="reset.css">
+
     <link rel="stylesheet" href="teyvat.css">
 </head>
 <body>
-    <div>
+    <header >
+		<div class="caixa">
+            <h1><img class="logo" src="img/logo-genshin.png"></h1>
+
+            <nav>
+                <ul>
+                    <a href="teyvat.html"><li>mundo</li></a>
+                    <a href="https://genshin.mihoyo.com/pt/character/mondstadt"><li>personagem</li></a>
+                    <a href="https://genshin-impact.fandom.com/pt-br/wiki/Missões"><li>missões</li></a>
+                    <a href="https://genshin.mihoyo.com/pt/home"><li><img class="icons" src="img/paimon-icon.png"></li></a>
+                    <a href="https://www.hoyolab.com/"><li><img class="icons" src="img/hoyolab-icon.png"></li></a>
+                    <a href="https://twitter.com/GenshinImpact"><li><img class="icons" src="img/twitter-icon.png"></li></a>
+                </ul>
+            </nav>
+        </div>
+	</header>
+    <div class="inicio">
         <h1 class="titulo">Teyvat</h1>
         <p class="texto">"Este é o mundo de fantasia de Teyvat, onde dominam os Sete Elementos.<br>
-            Há muito tempo, as pessoas, através de suas crenças nos Deuses, aprenderam <br> a controlar o poder desses elementos, e transformaram este lugar inóspito em<br> suas moradias. O colapso desse império, há 500 anos, abalou os céus e a terra.<br>
+            Há muito tempo, as pessoas, através de suas crenças nos Arcontes, aprenderam <br> a controlar o poder desses elementos, e transformaram este lugar inóspito em<br> suas moradias. O colapso desse império, há 500 anos, abalou os céus e a terra.<br>
             Contudo, apesar da devastação ter acabado, a paz ainda não estava à vista."<br></p>
+    </div>
+    <div class="mondstadt">
             <h1 class="nacoes">Nações Principais:</h1>
-        <ul id="lista">
             <img src="img/mondstadt.png" class="cidade-icone">
+            <img src="img/anemo.png" class="elemento-icone">
+        <ul class="lista">
             <li class="cidades">
-                Mondstadt: A cidade do Vento e Poesia
-                <p class="cidade-descricao">A capital da liberdade, ao nordeste de Teyvat. Entre cadeias de montanhas e as vastas planícies<br>O vento da liberdade traz consigo o aroma de Dandelion e acaricia o lago de Cidra<br> trazendo à cidade, no meio do lago, a bênção de Barbatos.</p>
+                <strong>Mondstadt: A Cidade do Vento e Poesia</strong>
+                <p class="cidade-descricao">A capital da liberdade, ao nordeste de Teyvat. Entre cadeias de montanhas e as vastas planícies<br>O vento da liberdade traz consigo o aroma de Dandelion e acaricia o lago de Cidra<br> trazendo à cidade, no meio do lago, a bênção de Barbatos.<br>
+                    Mondstadt (German: Mondstadt "Cidade da Lua") é uma das sete nações de Teyvat, e a primeira nação em que o Viajante começa a busca por seu irmão(a). É a cidade-estado que venera Barbatos, o Arconte Anemo.<br>
+                    O dragão que defendeu a liberdade de Mondstadt por um milênio finalmente enfrenta o que a perturbou. Uma liberdade concedida sob comando, ainda pode ser considerada liberdade?
+                    <br><br>- Dainsleif</p>
+                <img class="mondstadt-imagem" src="img/imagem-LINDA.png">
             </li>
-            
         </ul>
     </div>
+    <div class="liyue">
+        <img src="img/liyue-icone.png" alt="liyue" class="cidade-icone">
+        <img src="img/geo-icone.png" class="elemento-icone">
+        <ul class="lista">
+            <li class="cidades">
+                <strong>Porto de Liyue: A Terra da Pedra e dos Contratos</strong>
+                <p class="cidade-descricao">Um porto próspero localizado ao leste de Teyvat. Liyue está localizada entre o sopé da Floresta de Pedra, das planícies grossas e um litoral cheio de vida, com mudanças sazonais claramente definidas e coloridas. Quantos presentes do Deus da Pedra estão escondidas entre suas montanhas?<br>
+                Liyue (chinês: 璃月 Líyuè) é uma das sete nações de Teyvat. É a cidade-estado que venera Morax, o Arconte Geo.<br>
+                 "O Deus dos Contratos, abatido sem sentido enquanto seu povo assistia horrorizado. No final, ele irá assinar o contrato para terminar com todos os contratos."
+                <br><br>- Dainsleif</p>
+                <img class="liyue-imagem" src="img/liyue-paisagem.png">
+            </li>
+        </ul>
+    </div>
+    <div>
+        <img src="img/inazuma-icone.png" alt="inazuma" class="cidade-icone">
+        <img src="img/electro-icone.png" class="elemento-icone">
+        <ul class="lista">
+            <li class="cidades">
+                <strong>Inazuma: A Terra do Trovão e da Eternidade</strong>
+                <p class="cidade-descricao">Ilhas Isoladas no Extremo Oriente de Teyvat.
+                    Supere tempestades sem fim, entre na ilha das flores de Sakura e testemunhe nos penhascos verticais e florestas densas a Eternidade perseguida por Narukami Ogosho Toda-Poderosa.<br>
+                    Inazuma (japonês: 稲妻 Inazuma; chinês: 稻妻 Dàoqī) é uma das sete nações de Teyvat. É o arquipélago que venera a Shogun Raiden, a Arconte Electro, que também é a líder de seu corpo governante, o Bafuku de Inazuma.<br>
+                    Na terra isolada do imortal Shogun, o Bafuku governa eternamente. Mas o que os mortais vêem da eternidade perseguidos por seu deus?
+                    <br><br>- Dainsleif</p>
+                    <img class="inazuma-imagem" src="img/inazuma-background.png">
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+		<img class="logo" src="img/logo-genshin.png">
+		<p>Trabalho de Internet E Programacao Web - 2º INFO</p>
+		<p>João Vitor - Victor Nadal - Prof. Carlos</p>
+		<p>joaovmotamattos@gmail.com</p>
+		<p>victornadal50@hotmail.com</p>
+	</footer>
 </body>
 </html>
